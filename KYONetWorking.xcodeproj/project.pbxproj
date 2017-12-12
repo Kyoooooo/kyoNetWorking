@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31DBE8051FD793B5003E33CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8041FD793B5003E33CF /* AppDelegate.m */; };
+		31DBE8081FD793B5003E33CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8071FD793B5003E33CF /* ViewController.m */; };
+		31DBE80B1FD793B5003E33CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DBE8091FD793B5003E33CF /* Main.storyboard */; };
+		31DBE80D1FD793B5003E33CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DBE80C1FD793B5003E33CF /* Assets.xcassets */; };
+		31DBE8101FD793B5003E33CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DBE80E1FD793B5003E33CF /* LaunchScreen.storyboard */; };
+		31DBE8131FD793B5003E33CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8121FD793B5003E33CF /* main.m */; };
+		31DBE81D1FD793B5003E33CF /* KYONetWorkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE81C1FD793B5003E33CF /* KYONetWorkingTests.m */; };
+		31DBE8281FD793B5003E33CF /* KYONetWorkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8271FD793B5003E33CF /* KYONetWorkingUITests.m */; };
+		31DBE8391FD79627003E33CF /* BaseRequestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8381FD79627003E33CF /* BaseRequestApi.m */; };
+		31DBE83C1FD796FD003E33CF /* KyoUrlArgumentsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE83B1FD796FD003E33CF /* KyoUrlArgumentsFilter.m */; };
+		31DBE8431FD79AC4003E33CF /* DcampRequestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8421FD79AC4003E33CF /* DcampRequestApi.m */; };
+		31DBE8461FD79C82003E33CF /* RequestHeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8451FD79C82003E33CF /* RequestHeadModel.m */; };
+		C0AE7A5A68BAC4548D2E437F /* libPods-KYONetWorking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5428696BED2FDE2F6A6052A /* libPods-KYONetWorking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31DBE8191FD793B5003E33CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DBE7F81FD793B5003E33CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DBE7FF1FD793B5003E33CF;
+			remoteInfo = KYONetWorking;
+		};
+		31DBE8241FD793B5003E33CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DBE7F81FD793B5003E33CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DBE7FF1FD793B5003E33CF;
+			remoteInfo = KYONetWorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31DBE8001FD793B5003E33CF /* KYONetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYONetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DBE8031FD793B5003E33CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31DBE8041FD793B5003E33CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31DBE8061FD793B5003E33CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31DBE8071FD793B5003E33CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31DBE80A1FD793B5003E33CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31DBE80C1FD793B5003E33CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31DBE80F1FD793B5003E33CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31DBE8111FD793B5003E33CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DBE8121FD793B5003E33CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31DBE8181FD793B5003E33CF /* KYONetWorkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYONetWorkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DBE81C1FD793B5003E33CF /* KYONetWorkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYONetWorkingTests.m; sourceTree = "<group>"; };
+		31DBE81E1FD793B5003E33CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DBE8231FD793B5003E33CF /* KYONetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYONetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DBE8271FD793B5003E33CF /* KYONetWorkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYONetWorkingUITests.m; sourceTree = "<group>"; };
+		31DBE8291FD793B5003E33CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DBE8371FD79627003E33CF /* BaseRequestApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequestApi.h; sourceTree = "<group>"; };
+		31DBE8381FD79627003E33CF /* BaseRequestApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequestApi.m; sourceTree = "<group>"; };
+		31DBE83A1FD796FD003E33CF /* KyoUrlArgumentsFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KyoUrlArgumentsFilter.h; sourceTree = "<group>"; };
+		31DBE83B1FD796FD003E33CF /* KyoUrlArgumentsFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KyoUrlArgumentsFilter.m; sourceTree = "<group>"; };
+		31DBE8411FD79AC4003E33CF /* DcampRequestApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DcampRequestApi.h; sourceTree = "<group>"; };
+		31DBE8421FD79AC4003E33CF /* DcampRequestApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DcampRequestApi.m; sourceTree = "<group>"; };
+		31DBE8441FD79C82003E33CF /* RequestHeadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestHeadModel.h; sourceTree = "<group>"; };
+		31DBE8451FD79C82003E33CF /* RequestHeadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestHeadModel.m; sourceTree = "<group>"; };
+		8D11BD6F5ADF8326A0869C9A /* Pods-KYONetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYONetWorking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYONetWorking/Pods-KYONetWorking.debug.xcconfig"; sourceTree = "<group>"; };
+		90894F8B8AAF06C06D953E1F /* Pods-KYONetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYONetWorking.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYONetWorking/Pods-KYONetWorking.release.xcconfig"; sourceTree = "<group>"; };
+		B5428696BED2FDE2F6A6052A /* libPods-KYONetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYONetWorking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31DBE7FD1FD793B5003E33CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AE7A5A68BAC4548D2E437F /* libPods-KYONetWorking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8151FD793B5003E33CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8201FD793B5003E33CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31DBE7F71FD793B5003E33CF = {
+			isa = PBXGroup;
+			children = (
+				31DBE8021FD793B5003E33CF /* KYONetWorking */,
+				31DBE81B1FD793B5003E33CF /* KYONetWorkingTests */,
+				31DBE8261FD793B5003E33CF /* KYONetWorkingUITests */,
+				31DBE8011FD793B5003E33CF /* Products */,
+				EF2CE8B30349525915F1B051 /* Pods */,
+				5EA13E5612C8DB66909D1971 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31DBE8011FD793B5003E33CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE8001FD793B5003E33CF /* KYONetWorking.app */,
+				31DBE8181FD793B5003E33CF /* KYONetWorkingTests.xctest */,
+				31DBE8231FD793B5003E33CF /* KYONetWorkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31DBE8021FD793B5003E33CF /* KYONetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE83D1FD7992D003E33CF /* Model */,
+				31DBE8361FD79427003E33CF /* BaseRequestApi */,
+				31DBE8351FD79427003E33CF /* Classes */,
+				31DBE8031FD793B5003E33CF /* AppDelegate.h */,
+				31DBE8041FD793B5003E33CF /* AppDelegate.m */,
+				31DBE8091FD793B5003E33CF /* Main.storyboard */,
+				31DBE80C1FD793B5003E33CF /* Assets.xcassets */,
+				31DBE80E1FD793B5003E33CF /* LaunchScreen.storyboard */,
+				31DBE8111FD793B5003E33CF /* Info.plist */,
+				31DBE8121FD793B5003E33CF /* main.m */,
+			);
+			path = KYONetWorking;
+			sourceTree = "<group>";
+		};
+		31DBE81B1FD793B5003E33CF /* KYONetWorkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE81C1FD793B5003E33CF /* KYONetWorkingTests.m */,
+				31DBE81E1FD793B5003E33CF /* Info.plist */,
+			);
+			path = KYONetWorkingTests;
+			sourceTree = "<group>";
+		};
+		31DBE8261FD793B5003E33CF /* KYONetWorkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE8271FD793B5003E33CF /* KYONetWorkingUITests.m */,
+				31DBE8291FD793B5003E33CF /* Info.plist */,
+			);
+			path = KYONetWorkingUITests;
+			sourceTree = "<group>";
+		};
+		31DBE8351FD79427003E33CF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE8061FD793B5003E33CF /* ViewController.h */,
+				31DBE8071FD793B5003E33CF /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		31DBE8361FD79427003E33CF /* BaseRequestApi */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE8371FD79627003E33CF /* BaseRequestApi.h */,
+				31DBE8381FD79627003E33CF /* BaseRequestApi.m */,
+				31DBE8441FD79C82003E33CF /* RequestHeadModel.h */,
+				31DBE8451FD79C82003E33CF /* RequestHeadModel.m */,
+				31DBE83A1FD796FD003E33CF /* KyoUrlArgumentsFilter.h */,
+				31DBE83B1FD796FD003E33CF /* KyoUrlArgumentsFilter.m */,
+			);
+			path = BaseRequestApi;
+			sourceTree = "<group>";
+		};
+		31DBE83D1FD7992D003E33CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE8411FD79AC4003E33CF /* DcampRequestApi.h */,
+				31DBE8421FD79AC4003E33CF /* DcampRequestApi.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EA13E5612C8DB66909D1971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5428696BED2FDE2F6A6052A /* libPods-KYONetWorking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF2CE8B30349525915F1B051 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D11BD6F5ADF8326A0869C9A /* Pods-KYONetWorking.debug.xcconfig */,
+				90894F8B8AAF06C06D953E1F /* Pods-KYONetWorking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31DBE7FF1FD793B5003E33CF /* KYONetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DBE82C1FD793B5003E33CF /* Build configuration list for PBXNativeTarget "KYONetWorking" */;
+			buildPhases = (
+				E60B6CC21A886151E67D2EA4 /* [CP] Check Pods Manifest.lock */,
+				31DBE7FC1FD793B5003E33CF /* Sources */,
+				31DBE7FD1FD793B5003E33CF /* Frameworks */,
+				31DBE7FE1FD793B5003E33CF /* Resources */,
+				F0524C80179B0751BD49CEEA /* [CP] Embed Pods Frameworks */,
+				77FADB7E295451F36D1D77E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYONetWorking;
+			productName = KYONetWorking;
+			productReference = 31DBE8001FD793B5003E33CF /* KYONetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31DBE8171FD793B5003E33CF /* KYONetWorkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DBE82F1FD793B5003E33CF /* Build configuration list for PBXNativeTarget "KYONetWorkingTests" */;
+			buildPhases = (
+				31DBE8141FD793B5003E33CF /* Sources */,
+				31DBE8151FD793B5003E33CF /* Frameworks */,
+				31DBE8161FD793B5003E33CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DBE81A1FD793B5003E33CF /* PBXTargetDependency */,
+			);
+			name = KYONetWorkingTests;
+			productName = KYONetWorkingTests;
+			productReference = 31DBE8181FD793B5003E33CF /* KYONetWorkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31DBE8221FD793B5003E33CF /* KYONetWorkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DBE8321FD793B5003E33CF /* Build configuration list for PBXNativeTarget "KYONetWorkingUITests" */;
+			buildPhases = (
+				31DBE81F1FD793B5003E33CF /* Sources */,
+				31DBE8201FD793B5003E33CF /* Frameworks */,
+				31DBE8211FD793B5003E33CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DBE8251FD793B5003E33CF /* PBXTargetDependency */,
+			);
+			name = KYONetWorkingUITests;
+			productName = KYONetWorkingUITests;
+			productReference = 31DBE8231FD793B5003E33CF /* KYONetWorkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31DBE7F81FD793B5003E33CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Dcamper;
+				TargetAttributes = {
+					31DBE7FF1FD793B5003E33CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					31DBE8171FD793B5003E33CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31DBE7FF1FD793B5003E33CF;
+					};
+					31DBE8221FD793B5003E33CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31DBE7FF1FD793B5003E33CF;
+					};
+				};
+			};
+			buildConfigurationList = 31DBE7FB1FD793B5003E33CF /* Build configuration list for PBXProject "KYONetWorking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31DBE7F71FD793B5003E33CF;
+			productRefGroup = 31DBE8011FD793B5003E33CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DBE7FF1FD793B5003E33CF /* KYONetWorking */,
+				31DBE8171FD793B5003E33CF /* KYONetWorkingTests */,
+				31DBE8221FD793B5003E33CF /* KYONetWorkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31DBE7FE1FD793B5003E33CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DBE8101FD793B5003E33CF /* LaunchScreen.storyboard in Resources */,
+				31DBE80D1FD793B5003E33CF /* Assets.xcassets in Resources */,
+				31DBE80B1FD793B5003E33CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8161FD793B5003E33CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8211FD793B5003E33CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77FADB7E295451F36D1D77E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYONetWorking/Pods-KYONetWorking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60B6CC21A886151E67D2EA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYONetWorking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0524C80179B0751BD49CEEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYONetWorking/Pods-KYONetWorking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31DBE7FC1FD793B5003E33CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DBE8081FD793B5003E33CF /* ViewController.m in Sources */,
+				31DBE8461FD79C82003E33CF /* RequestHeadModel.m in Sources */,
+				31DBE8391FD79627003E33CF /* BaseRequestApi.m in Sources */,
+				31DBE8131FD793B5003E33CF /* main.m in Sources */,
+				31DBE8051FD793B5003E33CF /* AppDelegate.m in Sources */,
+				31DBE83C1FD796FD003E33CF /* KyoUrlArgumentsFilter.m in Sources */,
+				31DBE8431FD79AC4003E33CF /* DcampRequestApi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8141FD793B5003E33CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DBE81D1FD793B5003E33CF /* KYONetWorkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE81F1FD793B5003E33CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DBE8281FD793B5003E33CF /* KYONetWorkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31DBE81A1FD793B5003E33CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DBE7FF1FD793B5003E33CF /* KYONetWorking */;
+			targetProxy = 31DBE8191FD793B5003E33CF /* PBXContainerItemProxy */;
+		};
+		31DBE8251FD793B5003E33CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DBE7FF1FD793B5003E33CF /* KYONetWorking */;
+			targetProxy = 31DBE8241FD793B5003E33CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31DBE8091FD793B5003E33CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DBE80A1FD793B5003E33CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31DBE80E1FD793B5003E33CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DBE80F1FD793B5003E33CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31DBE82A1FD793B5003E33CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31DBE82B1FD793B5003E33CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31DBE82D1FD793B5003E33CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D11BD6F5ADF8326A0869C9A /* Pods-KYONetWorking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYONetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dcamp.KYONetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31DBE82E1FD793B5003E33CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90894F8B8AAF06C06D953E1F /* Pods-KYONetWorking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYONetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dcamp.KYONetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31DBE8301FD793B5003E33CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYONetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dcamp.KYONetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYONetWorking.app/KYONetWorking";
+			};
+			name = Debug;
+		};
+		31DBE8311FD793B5003E33CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYONetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dcamp.KYONetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYONetWorking.app/KYONetWorking";
+			};
+			name = Release;
+		};
+		31DBE8331FD793B5003E33CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYONetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dcamp.KYONetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYONetWorking;
+			};
+			name = Debug;
+		};
+		31DBE8341FD793B5003E33CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYONetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dcamp.KYONetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYONetWorking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31DBE7FB1FD793B5003E33CF /* Build configuration list for PBXProject "KYONetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DBE82A1FD793B5003E33CF /* Debug */,
+				31DBE82B1FD793B5003E33CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DBE82C1FD793B5003E33CF /* Build configuration list for PBXNativeTarget "KYONetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DBE82D1FD793B5003E33CF /* Debug */,
+				31DBE82E1FD793B5003E33CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DBE82F1FD793B5003E33CF /* Build configuration list for PBXNativeTarget "KYONetWorkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DBE8301FD793B5003E33CF /* Debug */,
+				31DBE8311FD793B5003E33CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DBE8321FD793B5003E33CF /* Build configuration list for PBXNativeTarget "KYONetWorkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DBE8331FD793B5003E33CF /* Debug */,
+				31DBE8341FD793B5003E33CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31DBE7F81FD793B5003E33CF /* Project object */;
+}
